@@ -14,7 +14,16 @@ kernelspec:
 
 # Introduction
 
-`glmnet` is a Python package that fits generalized linear models via penalized maximum likelihood. The regularization path is computed for the lasso or elastic net penalty at a grid of values (on the log scale) for the regularization parameter lambda. The algorithm is extremely fast and can exploit sparsity in the input matrix `X`. It fits linear, logistic and multinomial, poisson, and Cox regression models. It can also fit multi-response linear regression, generalized linear models for custom families, and relaxed lasso regression models. The package includes methods for prediction and plotting, and functions for cross-validation.
+`glmnet` is a Python package that fits generalized linear models via
+penalized maximum likelihood. The regularization path is computed for
+the lasso or elastic net penalty at a grid of values (on the log
+scale) for the regularization parameter lambda. The algorithm is
+extremely fast and can exploit sparsity in the input matrix `X`. It
+fits linear, logistic and multinomial, poisson, and Cox regression
+models. It can also fit multi-response linear regression, generalized
+linear models for custom families, and relaxed lasso regression
+models. The package includes methods for prediction and plotting, and
+functions for cross-validation. Test change by Trevor.
 
 The original authors of glmnet are Jerome Friedman, Trevor Hastie, Rob Tibshirani, Balasubramanian Narasimhan, Kenneth Tay and Noah Simon, with contribution from Junyang Qian. This document adapts the R vignette for the Python `glmnet` package.
 
